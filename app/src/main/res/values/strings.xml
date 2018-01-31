@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">zxing-kotlin-simple</string>
+    <string name="capture">Capture</string>
+    <string name="generate">Generate</string>
+</resources>
