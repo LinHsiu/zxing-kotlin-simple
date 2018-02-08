@@ -1,4 +1,4 @@
-package com.showlin.zxing_kotlin_simple
+package com.showlin.simpleQRCode
 
 import org.junit.Test
 

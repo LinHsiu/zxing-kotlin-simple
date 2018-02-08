@@ -1,4 +1,4 @@
-package com.showlin.zxing_kotlin_simple
+package com.showlin.simpleQRCode
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

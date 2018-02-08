@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="true" android:state_window_focused="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+
+            <corners
+                android:radius="25dp"/>
+
+            <gradient
+                android:startColor="@color/colorPrimary"
+                android:centerColor="@color/colorPrimary"
+                android:endColor="#fff"
+                android:gradientRadius="150dp"
+                android:type="radial" />
+            <!--<solid android:color="#18506C" />-->
+
+            <padding
+                android:top="5dp"
+                android:right="5dp"
+                android:bottom="5dp"
+                android:left="5dp"/>
+
+            <size
+                android:width="150dp"
+                android:height="60dp" />
+
+            <stroke
+                android:width="1dp"
+                android:color="#FFF"
+                android:dashWidth="5dp" />
+            <!--android:dashGap="2dp"-->
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <corners
+                android:radius="25dp"/>
+
+            <gradient
+                android:startColor="@color/colorPrimary"
+                android:centerColor="@color/colorPrimary"
+                android:endColor="#fff"
+                android:gradientRadius="150dp"
+                android:type="radial" />
+            <!--<solid android:color="#18506C" />-->
+
+            <padding
+                android:top="5dp"
+                android:right="5dp"
+                android:bottom="5dp"
+                android:left="5dp"/>
+
+            <size
+                android:width="150dp"
+                android:height="60dp" />
+
+            <stroke
+                android:width="1dp"
+                android:color="#FFF"
+                android:dashWidth="5dp" />
+            <!--android:dashGap="2dp"-->
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <corners
+                android:radius="25dp"/>
+
+            <gradient
+                android:startColor="@color/colorPrimaryDark"
+                android:centerColor="@color/colorPrimaryDark"
+                android:endColor="#fff"
+                android:gradientRadius="150dp"
+                android:type="radial" />
+            <!--<solid android:color="#18506C" />-->
+
+            <padding
+                android:top="5dp"
+                android:right="5dp"
+                android:bottom="5dp"
+                android:left="5dp"/>
+
+            <size
+                android:width="150dp"
+                android:height="60dp" />
+
+            <stroke
+                android:width="1dp"
+                android:color="#FFF"
+                android:dashWidth="5dp" />
+            <!--android:dashGap="2dp"-->
+        </shape>
+    </item>
+
+    <item android:state_focused="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <corners
+                android:radius="25dp"/>
+
+            <gradient
+                android:startColor="@color/colorPrimary"
+                android:centerColor="@color/colorPrimary"
+                android:endColor="#fff"
+                android:gradientRadius="150dp"
+                android:type="radial" />
+            <!--<solid android:color="#18506C" />-->
+
+            <padding
+                android:top="5dp"
+                android:right="5dp"
+                android:bottom="5dp"
+                android:left="5dp"/>
+
+            <size
+                android:width="150dp"
+                android:height="60dp" />
+
+            <stroke
+                android:width="1dp"
+                android:color="#FFF"
+                android:dashWidth="5dp" />
+            <!--android:dashGap="2dp"-->
+        </shape>
+    </item>
+
+</selector>

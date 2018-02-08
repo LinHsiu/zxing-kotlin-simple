@@ -2,50 +2,87 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:padding="16dp"
+    android:background="@color/color1"
+    android:fitsSystemWindows="true"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btn_capture"
-        android:text="@string/capture"
-        android:textAllCaps="false"
+
+    <ImageView
+        android:id="@+id/img_bird_1"
+        android:layout_above="@+id/text_title"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/img_bird_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <Button
-        android:id="@+id/btn_generate"
-        android:text="@string/generate"
-        android:textAllCaps="false"
-        android:layout_below="@+id/btn_capture"
+    <ImageView
+        android:id="@+id/img_bird_2"
+        android:layout_toEndOf="@+id/img_bird_1"
+        android:layout_above="@+id/text_title"
+        android:src="@drawable/img_bird_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <EditText
-        android:id="@+id/edit_text"
-        android:layout_below="@+id/btn_generate"
+    <View
+        android:id="@+id/space_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_below="@+id/space_view"
+        android:text="@string/qr_code"
+        android:textSize="64sp"
+        android:textColor="#626262"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="@drawable/img_wood"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <ImageView
-        android:id="@+id/img_qr_code"
-        android:layout_below="@+id/edit_text"
-        android:layout_centerHorizontal="true"
-        android:scaleType="centerInside"
-        android:layout_marginTop="16dp"
-        android:layout_width="200dp"
-        android:layout_height="200dp" />
+        android:id="@+id/img_bear_white"
+        android:src="@drawable/img_bear_1"
+        android:layout_marginLeft="32dp"
+        android:layout_above="@+id/btn_capture"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
 
-    <ScrollView
-        android:layout_below="@+id/img_qr_code"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:id="@+id/text_result"
-            android:layout_marginTop="16dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </ScrollView>
+    <ImageView
+        android:id="@+id/img_bear_brown"
+        android:src="@drawable/img_bear_2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="32dp"
+        android:layout_above="@+id/btn_generate"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
 
+    <Button
+        android:id="@+id/btn_capture"
+        android:background="@drawable/btn_style_circle_yellow"
+        android:text="@string/capture"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="42dp"/>
 
+    <Button
+        android:id="@+id/btn_generate"
+        android:background="@drawable/btn_style_circle_yellow"
+        android:text="@string/generate"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="42dp"/>
 
 </RelativeLayout>

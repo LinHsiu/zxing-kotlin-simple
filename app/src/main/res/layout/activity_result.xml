@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fitsSystemWindows="true"
+    android:background="@color/color1"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_wifi"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/type_wifi"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/result"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_wifi_string"
+            android:textIsSelectable="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="14sp"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_wifi"
+            android:background="@drawable/btn_style_result"
+            android:text="@string/connect_wifi"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_url"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/type_url"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/result"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_url_string"
+            android:textIsSelectable="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:textSize="12sp"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_url"
+            android:background="@drawable/btn_style_result"
+            android:text="@string/go_to_website"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_sms"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/type_sms"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/result"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_sms_string"
+            android:textIsSelectable="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:textSize="12sp"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_sms"
+            android:background="@drawable/btn_style_result"
+            android:text="@string/send_sms"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_geo"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/type_geo"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/result"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_geo_string"
+            android:textIsSelectable="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:textSize="12sp"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_geo"
+            android:background="@drawable/btn_style_result"
+            android:text="@string/open_map"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_tel"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/type_tel"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/result"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_tel_string"
+            android:textIsSelectable="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:textSize="12sp"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_tel"
+            android:background="@drawable/btn_style_result"
+            android:text="@string/call"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_email"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/type_email"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/result"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_email_string"
+            android:textIsSelectable="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:textSize="12sp"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_email"
+            android:background="@drawable/btn_style_result"
+            android:text="@string/send_email"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_text"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/type_text"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/result"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_text_string"
+            android:textIsSelectable="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:textSize="12sp"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

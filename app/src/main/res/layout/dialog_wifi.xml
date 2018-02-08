@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:background="@color/color1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:text="@string/wifi"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+                <TextView
+                    android:text="SSID"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"/>
+                <EditText
+                    android:id="@+id/edit_ssid"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7.5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+                <TextView
+                    android:text="Password"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"/>
+                <EditText
+                    android:id="@+id/edit_password"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7.5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+                <TextView
+                    android:text="Network Type"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"/>
+                <RadioGroup
+                    android:id="@+id/group_radio"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7.5">
+                    <RadioButton
+                        android:id="@+id/type_wep"
+                        android:text="WEP"
+                        android:textColor="@color/colorWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/type_wpa"
+                        android:text="WPA/WPA2"
+                        android:textColor="@color/colorWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/type_none"
+                        android:text="NONE"
+                        android:textColor="@color/colorWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+                <TextView
+                    android:text="Hidden?"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"/>
+                <CheckBox
+                    android:id="@+id/check_box"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7.5"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/color3"
+                android:layout_marginTop="60dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="10">
+
+                <TextView
+                    android:id="@+id/text_dialog_generate"
+                    android:text="@string/generate"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"/>
+                <TextView
+                    android:background="@color/color1"
+                    android:layout_width="1px"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/text_dialog_cancel"
+                    android:text="@string/cancel"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

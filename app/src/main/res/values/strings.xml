@@ -1,5 +1,52 @@
 <resources>
-    <string name="app_name">zxing-kotlin-simple</string>
+
+    <!--MainActivity-->
+    <string name="app_name">QR code</string>
     <string name="capture">Capture</string>
     <string name="generate">Generate</string>
+    <string name="qr_code">QR code</string>
+
+    <!--ResultActivity-->
+    <string name="result">Result</string>
+    <string name="hi">Hi</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!--wifi-->
+    <string name="type_wifi">WIFI</string>
+    <string name="wifi_connect">Do you want to connect to\n%1$s</string>
+    <string name="connect_wifi">Connect WIFI</string>
+
+
+    <!--website-->
+    <string name="type_url">Website</string>
+    <string name="go_to_website">Go to website</string>
+
+    <!--sms-->
+    <string name="type_sms">SMS</string>
+    <string name="send_sms">Send SMS</string>
+
+    <!--geo-->
+    <string name="type_geo">Geography</string>
+    <string name="open_map">Open map</string>
+
+    <!--tel-->
+    <string name="type_tel">Telephone</string>
+    <string name="call">Call</string>
+    <string name="type_email">E-mail</string>
+    <string name="send_email">Send E-mail</string>
+    <string name="type_text">Text</string>
+    <string name="save">Save</string>
+    <string name="type_generate">Type Generate</string>
+    <string name="wifi">WIFI</string>
+    <string name="website">WEB</string>
+    <string name="sms">SMS</string>
+    <string name="geo">GEO</string>
+    <string name="tel">TEL</string>
+    <string name="mail">MAIL</string>
+    <string name="mecard">MECARD</string>
+    <string name="vcard">VCARD</string>
+    <string name="vevent">VEVENT</string>
+
+
 </resources>
