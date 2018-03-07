@@ -33,11 +33,21 @@
     <!--tel-->
     <string name="type_tel">Telephone</string>
     <string name="call">Call</string>
+
+    <!--email-->
     <string name="type_email">E-mail</string>
     <string name="send_email">Send E-mail</string>
+
+    <!--text-->
     <string name="type_text">Text</string>
+
+
+    <!--Generate-->
     <string name="save">Save</string>
     <string name="type_generate">Type Generate</string>
+
+
+    <!--Type Generate-->
     <string name="wifi">WIFI</string>
     <string name="website">WEB</string>
     <string name="sms">SMS</string>
@@ -48,5 +58,27 @@
     <string name="vcard">VCARD</string>
     <string name="vevent">VEVENT</string>
 
+
+    <!--Geo Generate-->
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="query">Query</string>
+
+    <!--Mail Generate-->
+    <string name="mail_address">Mail Address</string>
+
+    <!--SMS Generate-->
+    <string name="message">MESSAGE</string>
+    <string name="phone_number">Phone Number</string>
+
+    <!--URL Generate-->
+    <string name="url">URL</string>
+
+    <!--WIFI Generate-->
+    <string name="ssid">SSID</string>
+    <string name="password">Password</string>
+    <string name="network_type">Network Type</string>
+    <string name="none">NONE</string>
+    <string name="hidden">Hidden?</string>
 
 </resources>

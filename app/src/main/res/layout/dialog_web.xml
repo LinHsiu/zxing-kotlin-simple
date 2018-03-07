@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:weightSum="10">
                 <TextView
-                    android:text="URL"
+                    android:text="@string/url"
                     android:textSize="14sp"
                     android:textColor="@color/colorWhite"
                     android:layout_width="0dp"

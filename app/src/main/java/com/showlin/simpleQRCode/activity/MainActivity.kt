@@ -17,6 +17,12 @@ import com.showlin.simpleQRCode.R
 import com.showlin.simpleQRCode.Utility
 import com.showlin.simpleQRCode.Utility.REQUEST_CODE
 import kotlinx.android.synthetic.main.activity_main.*
+import android.app.ActivityManager.TaskDescription
+import android.content.res.Resources
+import android.graphics.BitmapFactory
+import android.graphics.Bitmap
+
+
 
 
 class MainActivity : BaseActivity() {
@@ -25,6 +31,18 @@ class MainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
+            val bm = BitmapFactory.decodeResource(resources, R.drawable.logo)
+            val taskDesc = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                TaskDescription(getString(R.string.app_name), bm, ContextCompat.getColor(this, R.color.color1))
+            } else {
+                TODO("VERSION.SDK_INT < LOLLIPOP")
+            }
+            setTaskDescription(taskDesc)
+        }
+
+
         btn_capture.setOnClickListener{
             val animation = RotateAnimation(0f, -360f, Animation.ABSOLUTE, btn_capture.pivotX, Animation.ABSOLUTE, btn_capture.pivotY + 100)
             animation.duration = 600

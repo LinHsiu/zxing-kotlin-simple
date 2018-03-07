@@ -100,7 +100,7 @@ class TypeAdapter(private val activity: TypeGenerateActivity) : RecyclerView.Ada
                     dialog.setContentView(R.layout.dialog_web)
                     dialog.show()
                     dialog.text_dialog_generate_url.setOnClickListener {
-                        var strURL = generateURLString(dialog.edit_url.text.toString())
+                        val strURL = generateURLString(dialog.edit_url.text.toString())
                         activity.sendResult(strURL)
                         activity.finish()
                         dialog.dismiss()
@@ -115,7 +115,7 @@ class TypeAdapter(private val activity: TypeGenerateActivity) : RecyclerView.Ada
                     dialog.setContentView(R.layout.dialog_sms)
                     dialog.show()
                     dialog.text_dialog_generate_sms.setOnClickListener {
-                        var strURL = generateSMSString(dialog.edit_sms_tel.text.toString(), dialog.edit_sms_message.text.toString())
+                        val strURL = generateSMSString(dialog.edit_sms_tel.text.toString(), dialog.edit_sms_message.text.toString())
                         activity.sendResult(strURL)
                         activity.finish()
                         dialog.dismiss()
@@ -130,7 +130,7 @@ class TypeAdapter(private val activity: TypeGenerateActivity) : RecyclerView.Ada
                     dialog.setContentView(R.layout.dialog_geo)
                     dialog.show()
                     dialog.text_dialog_generate_geo.setOnClickListener {
-                        var strURL = generateGEOString(dialog.edit_geo_latitude.text.toString(), dialog.edit_geo_longitude.text.toString(), dialog.edit_geo_query.text.toString())
+                        val strURL = generateGEOString(dialog.edit_geo_latitude.text.toString(), dialog.edit_geo_longitude.text.toString(), dialog.edit_geo_query.text.toString())
                         activity.sendResult(strURL)
                         activity.finish()
                         dialog.dismiss()
@@ -145,7 +145,7 @@ class TypeAdapter(private val activity: TypeGenerateActivity) : RecyclerView.Ada
                     dialog.setContentView(R.layout.dialog_tel)
                     dialog.show()
                     dialog.text_dialog_generate_tel.setOnClickListener {
-                        var strURL = generateTELString(dialog.edit_tel_number.text.toString())
+                        val strURL = generateTELString(dialog.edit_tel_number.text.toString())
                         activity.sendResult(strURL)
                         activity.finish()
                         dialog.dismiss()
@@ -160,7 +160,7 @@ class TypeAdapter(private val activity: TypeGenerateActivity) : RecyclerView.Ada
                     dialog.setContentView(R.layout.dialog_mail)
                     dialog.show()
                     dialog.text_dialog_generate_mail.setOnClickListener {
-                        var strURL = generateMAILString(dialog.edit_mail_address.text.toString())
+                        val strURL = generateMAILString(dialog.edit_mail_address.text.toString())
                         activity.sendResult(strURL)
                         activity.finish()
                         dialog.dismiss()

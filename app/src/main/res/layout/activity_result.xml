@@ -2,7 +2,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:fitsSystemWindows="true"
     android:background="@color/color1"
-    android:padding="16dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -18,24 +17,24 @@
             android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="#FFF"
+            android:layout_margin="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <TextView
-            android:text="@string/result"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:textColor="#FFF"
-            android:layout_marginTop="16dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+        <!--<TextView-->
+            <!--android:text="@string/result"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="#FFF"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
 
         <TextView
             android:id="@+id/text_wifi_string"
             android:textIsSelectable="true"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:textSize="14sp"
+            android:layout_margin="16dp"
+            android:textSize="18sp"
             android:textColor="#FFF"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -45,6 +44,7 @@
             android:background="@drawable/btn_style_result"
             android:text="@string/connect_wifi"
             android:textColor="#fff"
+            android:layout_margin="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
@@ -63,23 +63,23 @@
             android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="#FFF"
+            android:layout_margin="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <TextView
-            android:text="@string/result"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:textColor="#FFF"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+        <!--<TextView-->
+            <!--android:text="@string/result"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="#FFF"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
 
         <TextView
             android:id="@+id/text_url_string"
             android:textIsSelectable="true"
-            android:layout_marginTop="32dp"
-            android:layout_marginBottom="32dp"
-            android:textSize="12sp"
+            android:layout_margin="16dp"
+            android:textSize="18sp"
             android:textColor="#FFF"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -89,6 +89,7 @@
             android:background="@drawable/btn_style_result"
             android:text="@string/go_to_website"
             android:textColor="#fff"
+            android:layout_margin="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--MainActivity-->
+    <string name="app_name">QR code</string>
+    <string name="capture">擷取</string>
+    <string name="generate">產生</string>
+    <string name="qr_code">QR code</string>
+
+    <!--ResultActivity-->
+    <string name="result">結果</string>
+    <string name="hi">哈囉</string>
+    <string name="ok">好</string>
+    <string name="cancel">取消</string>
+
+    <!--wifi-->
+    <string name="type_wifi">WIFI</string>
+    <string name="wifi_connect">你要連結到\n%1$s嗎？</string>
+    <string name="connect_wifi">連結 WIFI</string>
+
+
+    <!--website-->
+    <string name="type_url">網站</string>
+    <string name="go_to_website">前往網站</string>
+
+    <!--sms-->
+    <string name="type_sms">簡訊</string>
+    <string name="send_sms">發送 簡訊</string>
+
+    <!--geo-->
+    <string name="type_geo">經緯度</string>
+    <string name="open_map">打開地圖</string>
+
+    <!--tel-->
+    <string name="type_tel">電話</string>
+    <string name="call">撥電話</string>
+
+    <!--email-->
+    <string name="type_email">電子郵件</string>
+    <string name="send_email">發送 電子郵件</string>
+
+    <!--text-->
+    <string name="type_text">文字</string>
+
+
+    <!--Generate-->
+    <string name="save">儲存</string>
+    <string name="type_generate">類別產生</string>
+
+
+    <!--Type Generate-->
+    <string name="wifi">WIFI</string>
+    <string name="website">網頁</string>
+    <string name="sms">簡訊</string>
+    <string name="geo">經緯度</string>
+    <string name="tel">電話</string>
+    <string name="mail">電子郵件</string>
+    <string name="mecard">MECARD</string>
+    <string name="vcard">VCARD</string>
+    <string name="vevent">VEVENT</string>
+
+
+    <!--Geo Generate-->
+    <string name="latitude">緯度</string>
+    <string name="longitude">精度</string>
+    <string name="query">查詢</string>
+
+    <!--Mail Generate-->
+    <string name="mail_address">電子信箱</string>
+
+    <!--SMS Generate-->
+    <string name="message">訊息</string>
+    <string name="phone_number">電話號碼</string>
+
+    <!--URL Generate-->
+    <string name="url">網址</string>
+
+    <!--WIFI Generate-->
+    <string name="ssid">SSID</string>
+    <string name="password">密碼</string>
+    <string name="network_type">網路連結類別</string>
+    <string name="none">無</string>
+    <string name="hidden">是否隱藏?</string>
+
+</resources>

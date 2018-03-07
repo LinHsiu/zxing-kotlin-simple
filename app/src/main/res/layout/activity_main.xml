@@ -46,7 +46,7 @@
     <ImageView
         android:id="@+id/img_bear_white"
         android:src="@drawable/img_bear_1"
-        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
         android:layout_above="@+id/btn_capture"
         android:layout_width="100dp"
         android:layout_height="wrap_content" />
@@ -55,7 +55,7 @@
         android:id="@+id/img_bear_brown"
         android:src="@drawable/img_bear_2"
         android:layout_alignParentEnd="true"
-        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
         android:layout_above="@+id/btn_generate"
         android:layout_width="100dp"
         android:layout_height="wrap_content" />

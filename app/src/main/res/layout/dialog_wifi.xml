@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:weightSum="10">
                 <TextView
-                    android:text="SSID"
+                    android:text="@string/ssid"
                     android:textSize="14sp"
                     android:textColor="@color/colorWhite"
                     android:layout_width="0dp"
@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:weightSum="10">
                 <TextView
-                    android:text="Password"
+                    android:text="@string/password"
                     android:textSize="14sp"
                     android:textColor="@color/colorWhite"
                     android:layout_width="0dp"
@@ -80,7 +80,7 @@
                 android:layout_height="wrap_content"
                 android:weightSum="10">
                 <TextView
-                    android:text="Network Type"
+                    android:text="@string/network_type"
                     android:textSize="14sp"
                     android:textColor="@color/colorWhite"
                     android:layout_width="0dp"
@@ -106,7 +106,7 @@
                         android:layout_height="wrap_content" />
                     <RadioButton
                         android:id="@+id/type_none"
-                        android:text="NONE"
+                        android:text="@string/none"
                         android:textColor="@color/colorWhite"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -122,7 +122,7 @@
                 android:layout_height="wrap_content"
                 android:weightSum="10">
                 <TextView
-                    android:text="Hidden?"
+                    android:text="@string/hidden"
                     android:textSize="14sp"
                     android:textColor="@color/colorWhite"
                     android:layout_width="0dp"
